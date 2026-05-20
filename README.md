@@ -12,6 +12,7 @@ Il couvre les notions fondamentales de structures de données et d’algorithmes
 - Arbre parfait
 - File de priorité (tas)
 - Fonction de haut niveau
+- Graphe
 
 ## Organisation du dépôt
 Chaque dossier correspond à un thème ou à une série de TP, illustrant une notion algorithmique précise.
