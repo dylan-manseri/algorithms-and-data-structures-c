@@ -13,20 +13,24 @@ afin d'être compilé de manière autonome.
 
 ## Sommaire
 
-| Dossier                                                    | Thème                       | Notions clés                                 |
-| ---------------------------------------------------------- | --------------------------- | -------------------------------------------- |
-| [`listes-chainees/`](./listes-chainees)                    | Listes chaînées simples     | Cellules, primitives, manipulation par tête  |
-| [`listes-circulaires/`](./listes-circulaires)              | Listes chaînées circulaires | Représentations LC et LCTQ (tête/queue)      |
-| [`tris/`](./tris)                                          | Algorithmes de tri          | Sélection, insertion, fusion, rapide         |
-| [`arbres-binaires/`](./arbres-binaires)                    | Arbres binaires             | Parcours, arbres d'expression, pile          |
-| [`arbres-parfaits-et-tas/`](./arbres-parfaits-et-tas)      | Arbres parfaits & tas       | File de priorité, structure tableau          |
-| [`graphes/`](./graphes)                                    | Graphes & optimisation      | Parcours, plus court chemin, flots, ACM      |
+| Dossier                                                                                  | Thème                       | Notions clés                                 |
+| ---------------------------------------------------------------------------------------- | --------------------------- | -------------------------------------------- |
+| [`listes/`](./listes)                                                                    | Listes chaînées             | Simples, circulaires, doublement chaînées    |
+| &nbsp;&nbsp;[`listes/listes-chainees/`](./listes/listes-chainees)                         | — simples                   | Cellules, primitives, manipulation par tête  |
+| &nbsp;&nbsp;[`listes/listes-circulaires/`](./listes/listes-circulaires)                   | — circulaires               | Représentations LC et LCTQ (tête/queue)      |
+| &nbsp;&nbsp;[`listes/listes-doublement-chainees/`](./listes/listes-doublement-chainees)   | — doublement chaînées       | Polynômes, insertion triée, dérivée, somme   |
+| [`arbres/`](./arbres)                                                                    | Arbres                      | Binaires, parfaits, tas                      |
+| &nbsp;&nbsp;[`arbres/arbres-binaires/`](./arbres/arbres-binaires)                         | — binaires                  | Parcours, arbres d'expression, pile          |
+| &nbsp;&nbsp;[`arbres/arbres-parfaits-et-tas/`](./arbres/arbres-parfaits-et-tas)           | — parfaits & tas            | File de priorité, structure tableau          |
+| [`fonctions-en-parametre/`](./fonctions-en-parametre)                                    | Fonctions en paramètre      | Pointeurs de fonction, tri fusion générique  |
+| [`tris/`](./tris)                                                                        | Algorithmes de tri          | Sélection, insertion, fusion, rapide         |
+| [`graphes/`](./graphes)                                                                  | Graphes & optimisation      | Parcours, plus court chemin, flots, ACM      |
 
 ---
 
 ## Notions abordées
 
-- **Structures de données** : listes chaînées (simples, circulaires), piles, arbres binaires, arbres parfaits, tas, graphes (matrice d'adjacence, liste d'adjacence)
+- **Structures de données** : listes chaînées (simples, circulaires, doublement chaînées), piles, arbres binaires, arbres parfaits, tas, graphes (matrice d'adjacence, liste d'adjacence)
 - **Algorithmes de tri** : tri par sélection, par insertion, fusion, rapide
 - **Parcours d'arbres** : préfixe, infixe, postfixe, en largeur
 - **Algorithmes sur graphes** :
